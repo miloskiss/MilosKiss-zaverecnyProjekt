@@ -1,0 +1,13 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - ok
+2. Dodržení principů SRP a SoC - ok
+3. Vhodný výběr datových typů - ok
+4. Formátování kódu - ok
+5. Duplicitní kód a nekonečné cykly - Ve Třídě SpravaPojistencu se opakuje výzva na zadání libovolné klávesy, šla by přemístit přímo do cyklu.
+6. Validace vstupních dat - ok
+7. Logičnost a složitost - Metoda vypisVsechnyPojistence() v aktuální podobě funguje pouze jako getter. Metoda by mohla přímo vracet String, který by reprezentoval všechny pojištěnce v textové podobě.
+8. Komentáře - ok
+9. Celkové hodnocení - Zadání je splněno a kód je dobře strukturován. Třída SpravaPojistencu by mohla být napsána přehledněji a u výpisu pojištěnců by měla být využita návratová hodnota.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
